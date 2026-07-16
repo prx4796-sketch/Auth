@@ -12,7 +12,7 @@ except:
 faker = Faker()
 
 BOT_TOKEN = '8251019841:AAEipH9h9kN7EEC9UmjufnfsBjT0NXwgujk' # Bot Token
-ADMIN_ID = [6263030724, 8865545563]
+ADMIN_ID = [8865545563]
 bot = telebot.TeleBot(BOT_TOKEN)
 
 os.makedirs('Data', exist_ok=True)
